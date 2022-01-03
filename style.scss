@@ -70,39 +70,38 @@ body {
       }
 
       form {
-        background-color: #ffffb4;
+        background-color: #e5721b;
         color: black;
         width: 70%;
-        height: 55vh;
+        height: 51vh;
         margin: -1% 30% 4% 15%;
         border: 3px solid white;
         border-radius: 18px;
 
         .fieldsetContainer {
           color: black;
-
           fieldset {
             legend {
               h3 {
-                font-size: 1.1em;
+                font-size: 1em;
                 font-weight: 900;
                 font-family: "PT Sans", sans-serif;
-                margin: 9% 4% 17% 4%;
+                margin: 9% 4% 17% 3%;
                 text-align: center;
               }
 
               .pLegend {
-                font-size: 0.9em;
+                font-size: 0.75em;
                 font-weight: 600;
                 font-family: "PT Sans", sans-serif;
-                margin: -1% 3% 5% 2%;
+                margin: -5% 4% 3% 2%;
                 text-align: center;
               }
             }
 
             .labels {
               font-size: 0.9em;
-              font-weight: 900;
+              font-weight: bold;
               font-family: "PT Sans", sans-serif;
               text-align: center;
               display: flex;
@@ -266,10 +265,10 @@ body {
           }
 
           .tipoDeC {
-            margin: 1% 2% 0% -2%;
+            margin: 1% 2% 15% 17%;
 
             select {
-              width: 80%;
+              width: 98%;
               height: 5vh;
               text-align: center;
             }
@@ -450,10 +449,6 @@ body {
 //* D. Lo mejor de la Web:
 body {
   main {
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
-
     .intro {
       h2 {
         font-size: 1.5em;
@@ -483,7 +478,7 @@ body {
       .memesContainer {
         img {
           width: 70%;
-          height: 45vh;
+          height: 41vh;
           margin: -10% 0% 20% 15%;
           align-items: center;
           border: 2px solid white;
@@ -521,10 +516,18 @@ body {
         text-align: center;
       }
 
-      iframe {
-        margin: -15% 31% -8% -28%;
-        padding: 34px 136px;
-        align-items: center;
+      .youtubersIframe {
+        position: relative;
+        height: 0;
+        padding-bottom: 50%;
+        margin: -23px 1px 76px 25px;
+        iframe {
+          position: absolute;
+          top: 14px;
+          left: 0;
+          width: 92%;
+          height: 100%;
+        }
       }
     }
 
@@ -704,18 +707,25 @@ body {
         border: 2px solid rgb(143, 143, 143);
         border-radius: 14px;
 
-        p {
+        .pContainerp1 {
           font-size: 1.1em;
           font-weight: 900;
-          margin: 9% 21% 10% 19%;
+          margin: 9% -6% 10% -7%;
+          text-align: center;
+        }
+
+        .pContainerp2 {
+          font-size: 1.1em;
+          font-weight: 900;
+          margin: -10% 21% 10% 19%;
           text-align: center;
         }
       }
 
       img {
-        width: 72%;
+        width: 60%;
         height: 31vh;
-        margin: 1% 0% 3% 13%;
+        margin: 1% 0% 3% 19%;
         align-items: center;
         border: 3px solid white;
       }
@@ -729,26 +739,37 @@ body {
   body {
     main {
       .intro {
+        a {
+          h1 {
+            font-size: 2.3em;
+            margin: 13% 1% 5% 1%;
+          }
+        }
         .introH2 {
           font-size: 1.8em;
-          margin: -9% 14% 6% 11%;
+          margin: -9% 14% 9% 14%;
         }
-
+        .fotoIntro {
+          width: 70%;
+          height: 27vh;
+          margin: 0% 1% 9% 15%;
+        }
         .pIntro {
           font-size: 1.3em;
+          margin: -4% 11% 6% 11%;
         }
       }
 
       .nuevaCara {
         .pNuevaCara {
           font-size: 1.4em;
-          margin: 0% 15% 3% 14%;
+          margin: 0% 22% 2% 21%;
         }
 
         form {
-          width: 68%;
-          height: 53vh;
-          margin: -2% 30% 4% 16%;
+          width: 70%;
+          height: 51vh;
+          margin: -2% 30% 4% 15%;
 
           .fieldsetContainer {
             fieldset {
@@ -758,13 +779,19 @@ body {
             }
           }
         }
+        .followUsContainer {
+          .pFollowUs {
+            font-size: 1.4em;
+          }
+        }
       }
     }
 
     aside {
+      margin: -7% 0%;
       .h2Article {
         font-size: 1.6em;
-        margin: -2% 11%;
+        margin: -2% 12%;
         padding: 36px 0px;
       }
 
@@ -790,294 +817,364 @@ body {
       }
     }
   }
-}
 
-//* B. Contactanos:
-body {
-  main {
-    .intro {
-      .title3-A {
-        font-size: 1.8em;
-        margin: -9% 14% 6% 11%;
+  //* B. Contactanos:
+  body {
+    main {
+      .intro {
+        a {
+          h1 {
+            font-size: 2.3em;
+            margin: 13% 1% 5% 1%;
+          }
+        }
+        .title3-A {
+          font-size: 1.8em;
+        }
+
+        .title3-B {
+          font-size: 1.7em;
+          margin: 10% 8% 5% 9%;
+        }
+
+        .contactUs3 {
+          width: 70%;
+          height: 27vh;
+          margin: 1% 0% 1% 15%;
+        }
       }
 
-      .title3-B {
-        font-size: 1.6em;
+      .contactForm {
+        .contact {
+          h2 {
+            font-size: 1.8em;
+            margin: 12% 20% 4% 20%;
+          }
+
+          h3 {
+            font-size: 1.6em;
+            margin: 1% 13% 0% 14%;
+          }
+
+          .infoUser {
+            font-size: 1.5em;
+            margin: 12% 5% 1% 7%;
+          }
+
+          .typeDeConsulta {
+            .typeDeConsultaH3 {
+              font-size: 1.5em;
+              margin: 7% 1% 0% 1%;
+            }
+
+            .tipoDeC {
+              select {
+                margin: 1% 1% 1% 17%;
+              }
+            }
+          }
+
+          .mensaje {
+            font-size: 1.5em;
+            padding: 0px 24px;
+          }
+
+          .novedades {
+            .novedadesH3 {
+              font-size: 1.3em;
+            }
+
+            .answer {
+              font-size: 1.3em;
+              margin: 1% -11% 1% 22%;
+            }
+          }
+
+          .submit {
+            font-size: 1.5em;
+            width: 35%;
+            padding: 11px 0px;
+            margin: 9% 1% 14% 32%;
+          }
+        }
       }
 
-      .contactUs3 {
-        width: 65%;
-        margin: 1% 27% 1% 17%;
+      .p3 {
+        font-size: 1.4em;
+        margin: -2% 13% 1% 11%;
       }
     }
+  }
 
-    .contactForm {
-      .contact {
+  //* C. Novedades:
+  body {
+    main {
+      .intro {
+        a {
+          h1 {
+            font-size: 2.3em;
+            margin: 13% 1% 5% 1%;
+          }
+        }
         h2 {
+          font-size: 1.8em;
+          margin: -9% 26% 6% 25%;
+        }
+        .novedadesPic {
+          width: 70%;
+          height: 34vh;
+          margin: 3% 10% 7% 15%;
+        }
+      }
+
+      .sorteos {
+        h2 {
+          font-size: 1.7em;
+          margin: 12% 19% 6% 19%;
+        }
+
+        h3 {
+          font-size: 1.5em;
+        }
+        img {
+          width: 70%;
+          margin: 3% 1% 5% 14%;
+        }
+        p {
+          font-size: 1.5em;
+        }
+      }
+
+      .patrocinadores {
+        h2 {
+          font-size: 1.7em;
+          margin: 12% 19% 6% 19%;
+        }
+
+        h3 {
+          font-size: 1.5em;
+        }
+        img {
+          width: 70%;
+          margin: 3% 1% 5% 14%;
+        }
+        p {
+          font-size: 1.5em;
+        }
+      }
+
+      .seguinos {
+        h2 {
+          font-size: 1.7em;
+          margin: 12% 19% 6% 19%;
+        }
+
+        h3 {
+          font-size: 1.5em;
+        }
+        img {
+          width: 70%;
+          margin: 3% 1% 5% 14%;
+        }
+        p {
+          font-size: 1.5em;
+        }
+      }
+    }
+  }
+
+  //* D. Lo mejor de la Web:
+  body {
+    main {
+      .intro {
+        a {
+          h1 {
+            font-size: 2.3em;
+            margin: 13% 1% 5% 1%;
+          }
+        }
+        h2 {
+          font-size: 1.8em;
+          margin: -9% 26% 6% 26%;
+        }
+        .loMejorDeLaWebPic {
+          width: 70%;
+          height: 37vh;
+          margin: 3% 10% 7% 15%;
+        }
+      }
+
+      .memes {
+        h2 {
+          font-size: 1.7em;
+          margin: 9% 20% 10% 18%;
+        }
+
+        .memesContainer {
+          img {
+            width: 70%;
+            height: 47vh;
+          }
+        }
+
+        .p1 {
           font-size: 1.6em;
         }
 
+        .p2 {
+          font-size: 1.6em;
+        }
+      }
+
+      .youtubers {
+        h2 {
+          font-size: 1.7em;
+          margin: 9% 20% 10% 18%;
+        }
+
         h3 {
-          font-size: 1.4em;
-          margin: 1% 18% 1% 17%;
-        }
-
-        .infoUser {
-          font-size: 1.3em;
-          margin: 9% 2%;
-        }
-
-        .typeDeConsulta {
-          .typeDeConsultaH3 {
-            font-size: 1.3em;
-            margin: 8% 1% 0% 1%;
-          }
-
-          .tipoDeC {
-            select {
-              margin: 0% 1% 19% 12%;
-              padding: 0px 118px;
-            }
-          }
-        }
-
-        .mensaje {
-          font-size: 1.3em;
-          padding: 0px 7px;
-        }
-
-        .novedades {
-          .novedadesH3 {
-            font-size: 1.3em;
-          }
-
-          .answer {
-            font-size: 1.3em;
-            margin: 1% -11% 1% 22%;
-          }
-        }
-
-        .submit {
           font-size: 1.5em;
-          padding: 9px 0px;
-          margin: 9% 1% 14% 34%;
+        }
+        .youtubersIframe {
+          iframe {
+            left: 4px;
+          }
+        }
+      }
+
+      .canciones {
+        h2 {
+          font-size: 1.7em;
+          margin: 9% 20% 10% 18%;
+        }
+
+        h3 {
+          font-size: 1.5em;
+        }
+
+        p {
+          font-size: 1.5em;
+        }
+      }
+
+      .juegos {
+        h2 {
+          font-size: 1.7em;
+          margin: 9% 19% 10% 18%;
+        }
+
+        .gamesList {
+          h3 {
+            font-size: 1.5em;
+          }
+          img {
+            height: 28vh;
+          }
+        }
+      }
+
+      .podcasts {
+        h2 {
+          font-size: 1.7em;
+          margin: 9% 20% 10% 18%;
+        }
+
+        h3 {
+          font-size: 1.5em;
+          margin: 0% 1% 1% 0%;
+        }
+
+        p {
+          font-size: 1.5em;
+          margin: 16% 1% 11% 0%;
         }
       }
     }
-
-    .p3 {
-      font-size: 1.4em;
-    }
   }
-}
 
-//* C. Novedades:
-body {
-  main {
-    .intro {
-      h2 {
-        font-size: 1.8em;
-        margin: -9% 26% 6% 23%;
-      }
-    }
-
-    .sorteos {
-      h2 {
-        font-size: 1.7em;
-        margin: 12% 31% 6% 27%;
-      }
-
-      h3 {
-        font-size: 1.5em;
+  //* E. Respuesta del Form:
+  body {
+    main {
+      .intro {
+        a {
+          h1 {
+            font-size: 2.3em;
+            margin: 13% 1% 5% 1%;
+          }
+        }
+        img {
+          width: 70%;
+          height: 27vh;
+          margin: -7% 1% 1% 15%;
+        }
       }
 
-      p {
-        font-size: 1.5em;
-      }
-    }
+      .gotTheAnswer {
+        h2 {
+          font-size: 1.7em;
+          margin: 11% 15% 1% 15%;
+        }
 
-    .patrocinadores {
-      h2 {
-        font-size: 1.7em;
-        margin: 12% 31% 6% 27%;
-      }
+        h3 {
+          font-size: 1.5em;
+          margin: 11% 1% -7% 0%;
+        }
 
-      h3 {
-        font-size: 1.5em;
-      }
+        p {
+          font-size: 1.5em;
+          margin: 20% 1% 10% 1%;
+        }
 
-      p {
-        font-size: 1.5em;
-      }
-    }
-
-    .seguinos {
-      h2 {
-        font-size: 1.7em;
-        margin: 12% 31% 6% 27%;
-      }
-
-      h3 {
-        font-size: 1.5em;
-      }
-
-      p {
-        font-size: 1.5em;
+        img {
+          width: 80%;
+          margin: -2% 0% 3% 10%;
+        }
       }
     }
   }
-}
 
-//* D. Lo mejor de la Web:
-body {
-  main {
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
-
-    .intro {
-      h2 {
-        font-size: 1.8em;
-        margin: -9% 26% 6% 24%;
+  //* F. Respuesta de la Mini Encuesta:
+  body {
+    main {
+      .intro {
+        a {
+          h1 {
+            font-size: 2.3em;
+            margin: 13% 1% 5% 1%;
+          }
+        }
+        img {
+          width: 70%;
+          height: 27vh;
+          margin: -7% 1% 1% 15%;
+        }
       }
-    }
+      .recibimosRta {
+        h2 {
+          font-size: 1.7em;
+          margin: 11% 15% 6% 16%;
+        }
 
-    .memes {
-      h2 {
-        font-size: 1.7em;
-        margin: 9% 22% 10% 20%;
-      }
-
-      .p1 {
-        font-size: 1.6em;
-      }
-
-      .p2 {
-        font-size: 1.6em;
-      }
-    }
-
-    .youtubers {
-      h2 {
-        font-size: 1.7em;
-        margin: 9% 22% 10% 20%;
-      }
-
-      h3 {
-        font-size: 1.4em;
-      }
-
-      iframe {
-        margin: -2% 31% 4% -9%;
-        padding: 0px 109px;
-      }
-    }
-
-    .canciones {
-      h2 {
-        font-size: 1.7em;
-        margin: 9% 22% 10% 20%;
-      }
-
-      h3 {
-        font-size: 1.4em;
-      }
-
-      iframe {
-        padding: 0px 29px;
-      }
-
-      p {
-        font-size: 1.4em;
-      }
-    }
-
-    .juegos {
-      h2 {
-        font-size: 1.7em;
-        margin: 9% 22% 10% 20%;
-      }
-
-      .gamesList {
         h3 {
           font-size: 1.4em;
+          margin: -13% 15% 12% 16%;
         }
-      }
-    }
 
-    .podcasts {
-      h2 {
-        font-size: 1.7em;
-        margin: 9% 22% 10% 20%;
-      }
-
-      h3 {
-        font-size: 1.4em;
-      }
-
-      p {
-        font-size: 1.4em;
-        margin: 10% 1% 10% -3%;
-      }
-
-      iframe {
-        margin: -7% 1% 2% 9%;
-        padding: 0px 12px;
-      }
-    }
-  }
-}
-
-//* E. Respuesta del Form:
-body {
-  main {
-    .intro {
-      img {
-        width: 50%;
-        height: 23vh;
-        margin: -6% 1% 1% 24%;
-      }
-    }
-
-    .gotTheAnswer {
-      h2 {
-        font-size: 1.6em;
-        margin: 8% 31% 1% 30%;
-      }
-
-      h3 {
-        font-size: 1.4em;
-        margin: 13% 1% 0% 0%;
-      }
-
-      p {
-        font-size: 1.4em;
-        margin: 14% 1% 10% -1%;
-      }
-
-      img {
-        width: 80%;
-        margin: -2% 0% 3% 10%;
-      }
-    }
-  }
-}
-
-//* F. Respuesta de la Mini Encuesta:
-body {
-  main {
-    .recibimosRta {
-      h2 {
-        font-size: 1.4em;
-      }
-
-      h3 {
-        font-size: 1.4em;
-      }
-
-      .pContainer {
-        p {
-          font-size: 1.4em;
+        .pContainer {
+          width: 69%;
+          height: 19vh;
+          margin: 1% 2% 9% 16%;
+          .pContainerp1 {
+            font-size: 1.4em;
+          }
+          .pContainerp2 {
+            font-size: 1.4em;
+          }
+        }
+        img {
+          width: 69%;
+          height: 36vh;
+          margin: 1% 0% 3% 16%;
         }
       }
     }
@@ -1091,18 +1188,20 @@ body {
       .intro {
         a {
           h1 {
-            font-size: 3.5em;
-            margin: 12% 1% 7% 1%;
+            font-size: 3.9em;
+            margin: 13% 1% 9% 0%;
           }
         }
+
         .introH2 {
-          font-size: 2.5em;
-          margin: -6% 5% 11% 4%;
+          font-size: 2.7em;
+          margin: -6% 3% 15% 3%;
         }
+
         .fotoIntro {
           height: 35vh;
-          width: 75%;
-          margin: -2% 0% 10% 12%;
+          width: 80%;
+          margin: -2% 0% 10% 10%;
         }
 
         .pIntro {
@@ -1114,50 +1213,58 @@ body {
       .nuevaCara {
         .pNuevaCara {
           font-size: 2.4em;
-          margin: 0% 17% 3% 15%;
+          margin: 0% 15% 3% 14%;
         }
 
         form {
           width: 70%;
-          height: 52vh;
+          height: 51vh;
           margin: -2% 30% 4% 15%;
 
           .fieldsetContainer {
             fieldset {
               legend {
                 h3 {
-                  font-size: 2.1em;
-                  margin: 9% 4% 12% 4%;
+                  font-size: 2em;
+                  margin: 9% 4% 12% 3%;
                 }
+
                 .pLegend {
-                  font-size: 1.4em;
+                  font-size: 1.35em;
                   margin: -4% 16% 5% 13%;
                 }
               }
+
               .labels {
-                font-size: 2.2em;
+                font-size: 2em;
+
                 .userType1 {
-                  margin: 1% 6% 6% 2%;
+                  margin: 1% 6% 6% 1%;
                 }
+
                 .userType2 {
-                  margin: 1% 6% 6% -20%;
+                  margin: 1% 6% 6% -19%;
                 }
+
                 .userType3 {
-                  margin: 1% 6% 6% -20%;
+                  margin: 1% 6% 6% -19%;
                 }
               }
             }
           }
         }
+
         .followUsContainer {
           .pFollowUs {
             font-size: 2.4em;
-            margin: 0% 19% 7% 18%;
+            margin: 0% 19% 7% 17%;
           }
         }
       }
     }
+
     aside {
+      margin: 1% 0%;
       .h2Article {
         font-size: 2.4em;
         margin: -2% 17% 1% 15%;
@@ -1286,10 +1393,12 @@ body {
             margin: 12% 1% 7% 1%;
           }
         }
+
         h2 {
           font-size: 2.5em;
           margin: -6% 5% 11% 4%;
         }
+
         .novedadesPic {
           width: 60%;
           height: 28vh;
@@ -1358,10 +1467,12 @@ body {
             margin: 12% 1% 7% 1%;
           }
         }
+
         h2 {
           font-size: 2.5em;
           margin: -6% 5% 11% 4%;
         }
+
         .loMejorDeLaWebPic {
           width: 60%;
           height: 28vh;
@@ -1435,6 +1546,7 @@ body {
           h3 {
             font-size: 2.3em;
           }
+
           img {
             height: 28vh;
           }
@@ -1474,10 +1586,12 @@ body {
             margin: 12% 1% 7% 1%;
           }
         }
+
         h2 {
           font-size: 2.5em;
           margin: -6% 5% 11% 4%;
         }
+
         img {
           width: 60%;
           height: 28vh;
@@ -1516,17 +1630,18 @@ body {
       .intro {
         a {
           h1 {
-            font-size: 3.5em;
-            margin: 12% 1% 7% 1%;
+            font-size: 3.9em;
+            margin: 13% 1% 9% 0%;
           }
         }
 
         img {
-          width: 60%;
-          height: 28vh;
-          margin: -6% 0% 3% 19%;
+          width: 70%;
+          height: 31vh;
+          margin: -6% 0% 4% 15%;
         }
       }
+
       .recibimosRta {
         h2 {
           font-size: 2.4em;
@@ -1534,19 +1649,25 @@ body {
         }
 
         h3 {
-          font-size: 2.4em;
+          font-size: 2.2em;
+          margin: -17% 11% 10% 12%;
         }
 
         .pContainer {
-          p {
+          height: 22vh;
+          .pContainerp1 {
             font-size: 2.4em;
             margin: 9% -3% 9% -3%;
           }
+          .pContainerp2 {
+            font-size: 2.4em;
+          }
         }
+
         img {
-          width: 66%;
-          height: 30vh;
-          margin: 1% 0% 3% 16%;
+          width: 67%;
+          height: 39vh;
+          margin: 1% 0% 3% 17%;
         }
       }
     }
