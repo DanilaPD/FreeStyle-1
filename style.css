@@ -733,6 +733,7 @@ body main .recibimosRta img {
   }
   body main .intro .title3-A {
     font-size: 1.8em;
+    margin: -7% 1% 0% 1%;
   }
   body main .intro .title3-B {
     font-size: 1.7em;
@@ -970,7 +971,7 @@ body main .recibimosRta img {
 @media (min-width: 768px) {
   body main .intro a h1 {
     font-size: 3.9em;
-    margin: 13% 1% 9% 0%;
+    margin: 8% 1% 9% 0%;
   }
   body main .intro .introH2 {
     font-size: 2.7em;
@@ -1019,7 +1020,7 @@ body main .recibimosRta img {
     margin: 0% 19% 7% 17%;
   }
   body aside {
-    margin: 1% 0%;
+    margin: -7% 0%;
   }
   body aside .h2Article {
     font-size: 2.4em;
@@ -1041,7 +1042,7 @@ body main .recibimosRta img {
   }
   body main .intro a h1 {
     font-size: 3.5em;
-    margin: 12% 1% 7% 1%;
+    margin: 8% 1% 7% 1%;
   }
   body main .intro .title3-A {
     font-size: 2.5em;
@@ -1071,33 +1072,35 @@ body main .recibimosRta img {
     margin: 8% 1% 0% 1%;
   }
   body main .contactForm .contact .typeDeConsulta .tipoDeC select {
-    margin: 0% 1% 19% 12%;
-    padding: 0px 261px;
-    height: 4vh;
+    margin: 1% 1% 1% -5%;
+    padding: 1px 170px;
   }
   body main .contactForm .contact .mensaje {
     font-size: 2.1em;
-    padding: 0px 7px;
+    padding: 0px 29px;
   }
   body main .contactForm .contact .novedades .novedadesH3 {
     font-size: 2.1em;
   }
   body main .contactForm .contact .novedades .answer {
     font-size: 2.1em;
-    margin: 1% -11% 1% 22%;
+    margin: 1% -7% 1% 22%;
   }
   body main .contactForm .contact .submit {
     font-size: 2.3em;
     padding: 17px 0px;
-    margin: 8% 1% 13% 34%;
+    margin: 8% 1% 13% 33%;
   }
   body main .p3 {
     font-size: 2.5em;
     margin: -2% 14% 6% 12%;
   }
+  body footer {
+    margin: -7% 0% 0% 0%;
+  }
   body main .intro a h1 {
     font-size: 3.5em;
-    margin: 12% 1% 7% 1%;
+    margin: 8% 1% 7% 1%;
   }
   body main .intro h2 {
     font-size: 2.5em;
@@ -1138,14 +1141,9 @@ body main .recibimosRta img {
   body main .seguinos p {
     font-size: 2.5em;
   }
-  body main {
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
-  }
   body main .intro a h1 {
-    font-size: 3.5em;
-    margin: 12% 1% 7% 1%;
+    font-size: 3.9em;
+    margin: 8% 1% 9% 0%;
   }
   body main .intro h2 {
     font-size: 2.5em;
@@ -1174,10 +1172,8 @@ body main .recibimosRta img {
   body main .youtubers h3 {
     font-size: 2.3em;
   }
-  body main .youtubers iframe {
-    margin: -2% 31% 4% 13%;
-    height: 36vh;
-    padding: 0px 0px;
+  body main .youtubers .youtubersIframe iframe {
+    left: 15px;
   }
   body main .canciones h2 {
     font-size: 2.9em;
@@ -1187,20 +1183,21 @@ body main .recibimosRta img {
     font-size: 2.3em;
   }
   body main .canciones iframe {
-    padding: 0px 21px;
-    margin: -2% 1% -1% 9%;
-    height: 47vh;
+    padding: 0px 11px;
+    margin: -2% 1% -1% 10%;
+    height: 50vh;
   }
   body main .canciones p {
     font-size: 2.3em;
-    margin: 8% 17% 0% 13%;
+    margin: 8% 11% 0% 13%;
   }
   body main .juegos h2 {
     font-size: 2.9em;
-    margin: 8% 26% 13% 23%;
+    margin: 8% 13% 13% 14%;
   }
   body main .juegos .gamesList h3 {
     font-size: 2.3em;
+    margin: 9% 1% 9% 1%;
   }
   body main .juegos .gamesList img {
     height: 28vh;
@@ -1218,11 +1215,10 @@ body main .recibimosRta img {
   }
   body main .podcasts iframe {
     margin: -6% 1% 2% 9%;
-    padding: 0px 0px;
   }
   body main .intro a h1 {
     font-size: 3.5em;
-    margin: 12% 1% 7% 1%;
+    margin: 8% 1% 7% 1%;
   }
   body main .intro h2 {
     font-size: 2.5em;
@@ -1252,7 +1248,7 @@ body main .recibimosRta img {
   }
   body main .intro a h1 {
     font-size: 3.9em;
-    margin: 13% 1% 9% 0%;
+    margin: 8% 1% 9% 0%;
   }
   body main .intro img {
     width: 70%;
@@ -1281,6 +1277,592 @@ body main .recibimosRta img {
     width: 67%;
     height: 39vh;
     margin: 1% 0% 3% 17%;
+  }
+}
+
+@media (min-width: 1024px) {
+  body main {
+    margin: -2% 0%;
+  }
+  body main .intro a h1 {
+    font-size: 4.1em;
+    margin: 8% 1% 9% 2%;
+  }
+  body main .intro .introH2 {
+    font-size: 2.9em;
+    margin: -6% 3% 13% 5%;
+  }
+  body main .intro .fotoIntro {
+    height: 34vh;
+    width: 60%;
+    margin: -2% 0% 10% 21%;
+  }
+  body main .intro .pIntro {
+    font-size: 2.5em;
+  }
+  body main .nuevaCara .pNuevaCara {
+    font-size: 2.5em;
+  }
+  body main .nuevaCara form {
+    width: 70%;
+    height: 68vh;
+  }
+  body main .nuevaCara form .fieldsetContainer fieldset legend h3 {
+    margin: 9% 18% 12% 19%;
+  }
+  body main .nuevaCara form .fieldsetContainer fieldset legend .pLegend {
+    margin: -4% 24% 5% 24%;
+  }
+  body main .nuevaCara form .fieldsetContainer fieldset .labels .userType1 {
+    margin: 1% 6% 6% 3%;
+  }
+  body main .nuevaCara form .fieldsetContainer fieldset .labels .userType2 {
+    margin: 1% 6% 6% -12%;
+  }
+  body main .nuevaCara form .fieldsetContainer fieldset .labels .userType3 {
+    margin: 1% 6% 6% -14%;
+  }
+  body main .nuevaCara .followUsContainer .pFollowUs {
+    font-size: 2.5em;
+    margin: 0% 19% 7% 19%;
+  }
+  body aside {
+    margin: -8% 0%;
+  }
+  body aside .h2Article {
+    font-size: 2.5em;
+    margin: -2% 15% 1% 16%;
+  }
+  body aside figure .imgArticle {
+    width: 41%;
+    margin: 4% 1% 10% 30%;
+  }
+  body aside figure figcaption {
+    font-size: 2.2em;
+    margin: -6% 0% 0% 2%;
+  }
+  body footer .p1Footer {
+    margin: 22% 6% -2% 6%;
+  }
+  body footer .p2Footer {
+    margin: 4% 0% 4% 1%;
+  }
+  body main .intro .title3-A {
+    font-size: 2.7em;
+    margin: -6% 5% 11% 6%;
+  }
+  body main .intro .title3-B {
+    font-size: 2.7em;
+    margin: -3% 1% 7% 2%;
+  }
+  body main .intro .contactUs3 {
+    height: 38vh;
+    width: 49%;
+    margin: -2% 0% 10% 26%;
+  }
+  body main .contactForm .contact h2 {
+    font-size: 2.7em;
+    margin: 1% 25% 7% 26%;
+  }
+  body main .contactForm .contact h3 {
+    font-size: 2.5em;
+    margin: -1% 18% -3% 19%;
+  }
+  body main .contactForm .contact .infoUser {
+    font-size: 2.5em;
+  }
+  body main .contactForm .contact .infoUser .infoDelUsuario {
+    margin: 5% 17% 6% 16%;
+  }
+  body main .contactForm .contact .typeDeConsulta .typeDeConsultaH3 {
+    font-size: 2.5em;
+    margin: 7% 0% 0% 1%;
+  }
+  body main .contactForm .contact .typeDeConsulta .tipoDeC select {
+    margin: 1% 1% 1% 7%;
+    padding: 0px 186px;
+    height: 6vh;
+  }
+  body main .contactForm .contact .mensaje {
+    font-size: 2.5em;
+    padding: 0px 111px;
+    margin: -8% 9% 0% 10%;
+  }
+  body main .contactForm .contact .novedades .novedadesH3 {
+    font-size: 2.5em;
+  }
+  body main .contactForm .contact .novedades .answer {
+    font-size: 2.5em;
+    margin: 1% -18% 1% 27%;
+  }
+  body main .contactForm .contact .submit {
+    font-size: 2.5em;
+    padding: 26px 0px;
+    margin: 8% 1% 13% 36%;
+    width: 27%;
+  }
+  body main .contactForm .p3 {
+    margin: -2% 16% 6% 16%;
+  }
+  body main .intro h2 {
+    margin: -10% 1% 9% 2%;
+  }
+  body main .intro .novedadesPic {
+    width: 40%;
+    height: 36vh;
+    margin: 0% 0% 3% 31%;
+  }
+  body main .sorteos h2 {
+    font-size: 3em;
+    margin: 12% 32% 6% 33%;
+  }
+  body main .sorteos h3 {
+    font-size: 2.7em;
+    margin: -2% 0% 6% 1%;
+  }
+  body main .sorteos img {
+    width: 65%;
+    margin: 3% 1% 5% 18%;
+  }
+  body main .sorteos p {
+    font-size: 2.7em;
+    margin: 0% 1% -2% 1%;
+  }
+  body main .patrocinadores h2 {
+    font-size: 3em;
+    margin: 12% 32% 6% 33%;
+  }
+  body main .patrocinadores h3 {
+    font-size: 2.7em;
+    margin: -2% 0% 6% 1%;
+  }
+  body main .patrocinadores img {
+    width: 65%;
+    margin: 3% 1% 5% 18%;
+  }
+  body main .patrocinadores p {
+    font-size: 2.7em;
+    margin: 0% 1% -2% 2%;
+  }
+  body main .seguinos h2 {
+    font-size: 3em;
+    margin: 12% 32% 6% 33%;
+  }
+  body main .seguinos h3 {
+    font-size: 2.7em;
+    margin: -2% 0% 6% 1%;
+  }
+  body main .seguinos img {
+    width: 65%;
+    margin: 3% 1% 5% 18%;
+  }
+  body main .seguinos p {
+    font-size: 2.7em;
+    margin: 0% 1% -2% 1%;
+  }
+  body main .intro .loMejorDeLaWebPic {
+    width: 50%;
+    height: 36vh;
+    margin: -1% 0% 3% 25%;
+  }
+  body main .memes h2 {
+    margin: 8% 26% 5% 26%;
+  }
+  body main .memes .memesContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main .memes .memesContainer img {
+    width: 46%;
+    height: 54vh;
+    margin: 0% 1% 5% 28%;
+  }
+  body main .memes .p1 {
+    font-size: 2.5em;
+    margin: 4% 0%;
+  }
+  body main .memes .p2 {
+    font-size: 2.5em;
+  }
+  body main .youtubers h2 {
+    margin: 8% 14% 5% 15%;
+  }
+  body main .youtubers h3 {
+    font-size: 2.5em;
+    margin: 13% 1% 4% 1%;
+  }
+  body main .youtubers .youtubersIframe iframe {
+    left: 26px;
+  }
+  body main .canciones h2 {
+    margin: 17% 12% 12% 12%;
+  }
+  body main .canciones h3 {
+    font-size: 2.5em;
+    margin: -6% 1% 10% 1%;
+  }
+  body main .canciones iframe {
+    padding: 0px 136px;
+    margin: -2% 1% -1% 10%;
+    height: 54vh;
+  }
+  body main .canciones p {
+    font-size: 2.5em;
+    margin: 8% 11% 0% 10%;
+  }
+  body main .juegos h2 {
+    margin: 8% 22% 5% 23%;
+  }
+  body main .juegos .gamesList h3 {
+    font-size: 2.5em;
+  }
+  body main .juegos .gamesList img {
+    height: 36vh;
+  }
+  body main .podcasts h2 {
+    margin: 8% 19% 5% 19%;
+  }
+  body main .podcasts h3 {
+    font-size: 2.5em;
+    margin: 0% 1%;
+  }
+  body main .podcasts p {
+    font-size: 2.5em;
+    margin: 10% 1% 10% 0%;
+  }
+  body main .podcasts iframe {
+    margin: -8% 1% 0% 10%;
+  }
+  body main .gotTheAnswer h2 {
+    font-size: 2.7em;
+    margin: 8% 23% -3% 25%;
+  }
+  body main .gotTheAnswer h3 {
+    font-size: 2.5em;
+    margin: 12% 0% -3% 0%;
+  }
+  body main .gotTheAnswer p {
+    font-size: 2.5em;
+    margin: 14% 1% 10% 3%;
+  }
+  body main .gotTheAnswer img {
+    width: 50%;
+    height: 35vh;
+    margin: -2% 0% 3% 26%;
+  }
+  body main .intro img {
+    width: 52%;
+    height: 35vh;
+    margin: -6% 0% 4% 25%;
+  }
+  body main .recibimosRta h2 {
+    font-size: 2.5em;
+    margin: 7% 14% 18% 16%;
+  }
+  body main .recibimosRta h3 {
+    font-size: 2.4em;
+    margin: -17% 14% 10% 16%;
+  }
+  body main .recibimosRta .pContainer {
+    height: 24vh;
+    width: 60%;
+    margin: 0% 5% 9% 21%;
+  }
+  body main .recibimosRta img {
+    width: 51%;
+    margin: 1% 0% 3% 25%;
+  }
+}
+
+@media (min-width: 1440px) {
+  body main {
+    margin: -7% 0%;
+  }
+  body main .intro a h1 {
+    font-size: 5em;
+    margin: 11% 1% 9% 3%;
+  }
+  body main .intro .introH2 {
+    font-size: 3.5em;
+  }
+  body main .intro .fotoIntro {
+    height: 42vh;
+    width: 49%;
+    margin: -3% 0% 10% 26%;
+  }
+  body main .intro .pIntro {
+    font-size: 3.5em;
+    margin: -2% 14% 7% 15%;
+  }
+  body main .nuevaCara .pNuevaCara {
+    font-size: 3.5em;
+    margin: 0% 26% 7% 26%;
+  }
+  body main .nuevaCara form {
+    height: 94vh;
+  }
+  body main .nuevaCara form .fieldsetContainer fieldset legend h3 {
+    font-size: 2.5em;
+  }
+  body main .nuevaCara form .fieldsetContainer fieldset legend .pLegend {
+    margin: -4% 16% 5% 16%;
+    font-size: 2.1em;
+  }
+  body main .nuevaCara form .fieldsetContainer fieldset .labels {
+    font-size: 2.7em;
+  }
+  body main .nuevaCara form .fieldsetContainer fieldset .labels .userType1 {
+    margin: 2% 6% 6% 3%;
+  }
+  body main .nuevaCara form .fieldsetContainer fieldset .labels .userType2 {
+    margin: 1% 6% 6% -11%;
+  }
+  body main .nuevaCara form .fieldsetContainer fieldset .labels .userType3 {
+    margin: 1% 6% 6% -13%;
+  }
+  body main .nuevaCara .followUsContainer .pFollowUs {
+    font-size: 3.5em;
+    margin: 0% 19% 7% 19%;
+  }
+  body aside .h2Article {
+    font-size: 3.1em;
+  }
+  body aside figure .imgArticle {
+    width: 41%;
+    margin: 7% 1% 10% 30%;
+  }
+  body aside figure figcaption {
+    font-size: 3em;
+  }
+  body footer .p1Footer {
+    font-size: 2.5em;
+    margin: 22% 10% -2% 11%;
+  }
+  body footer .p2Footer {
+    font-size: 2.5em;
+    margin: 4% 0% 4% 2%;
+  }
+  body main .intro h2 {
+    margin: -6% 1% 9% 3%;
+    font-size: 3.5em;
+  }
+  body main .intro .novedadesPic {
+    width: 50%;
+    height: 49vh;
+    margin: 0% 0% 2% 27%;
+  }
+  body main .sorteos h2 {
+    font-size: 3.5em;
+    margin: 12% 23% 6% 26%;
+  }
+  body main .sorteos h3 {
+    font-size: 3.3em;
+    margin: -2% 0% 6% 3%;
+  }
+  body main .sorteos img {
+    width: 60%;
+    margin: 3% 1% 5% 22%;
+  }
+  body main .sorteos p {
+    font-size: 3.3em;
+    margin: 0% 1% -2% 5%;
+  }
+  body main .patrocinadores h2 {
+    font-size: 3.5em;
+    margin: 12% 23% 6% 26%;
+  }
+  body main .patrocinadores h3 {
+    font-size: 3.3em;
+    margin: -2% 0% 6% 3%;
+  }
+  body main .patrocinadores img {
+    width: 60%;
+    margin: 3% 1% 5% 22%;
+  }
+  body main .patrocinadores p {
+    font-size: 3.3em;
+    margin: 0% 1% -2% 4%;
+  }
+  body main .seguinos h2 {
+    font-size: 3.5em;
+    margin: 12% 23% 6% 26%;
+  }
+  body main .seguinos h3 {
+    font-size: 3.3em;
+    margin: -2% 0% 6% 3%;
+  }
+  body main .seguinos img {
+    width: 60%;
+    margin: 3% 1% 5% 22%;
+  }
+  body main .seguinos p {
+    font-size: 3.3em;
+    margin: 0% 1% -2% 4%;
+  }
+  body main .intro .loMejorDeLaWebPic {
+    height: 50vh;
+    margin: -1% 0% 3% 26%;
+  }
+  body main .memes h2 {
+    margin: 8% 24% 5% 26%;
+    font-size: 3.5em;
+  }
+  body main .memes .memesContainer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body main .memes .memesContainer img {
+    width: 38%;
+    height: 62vh;
+    margin: 0% -4% 9% 9%;
+  }
+  body main .memes .memesContainer img:last-child {
+    margin: 1% 1% 1% 31%;
+  }
+  body main .memes .p1 {
+    font-size: 3.3em;
+    margin: 7% 2% 0% 1%;
+  }
+  body main .memes .p2 {
+    font-size: 3.3em;
+    margin: 3% 2% -1% 0%;
+  }
+  body main .youtubers h2 {
+    font-size: 3.5em;
+    margin: 8% 20% -3% 21%;
+  }
+  body main .youtubers h3 {
+    font-size: 3.2em;
+    margin: 10% 1% 3% 1%;
+  }
+  body main .youtubers .youtubersIframe {
+    margin: -23px 148px 76px 180px;
+  }
+  body main .canciones h2 {
+    font-size: 3.5em;
+    margin: 17% 15% 12% 15%;
+  }
+  body main .canciones h3 {
+    font-size: 3.2em;
+    margin: -6% 1% 10% -1%;
+  }
+  body main .canciones iframe {
+    padding: 0px 175px;
+    margin: -2% -14% -1% 9%;
+    height: 74vh;
+  }
+  body main .canciones p {
+    font-size: 3.2em;
+    margin: 8% 22% 0% 20%;
+  }
+  body main .juegos h2 {
+    margin: 8% 22% 5% 20%;
+    font-size: 3.5em;
+  }
+  body main .juegos .gamesList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body main .juegos .gamesList h3:nth-child(1) {
+    margin: 1% 1% 1% 15%;
+    font-size: 3.2em;
+  }
+  body main .juegos .gamesList h3:nth-child(3) {
+    margin: 1% 1% 1% 20%;
+    font-size: 3.2em;
+  }
+  body main .juegos .gamesList h3:nth-child(5) {
+    margin: -5% 1% 5% 11%;
+    font-size: 3.2em;
+  }
+  body main .juegos .gamesList h3:nth-child(7) {
+    margin: -5% 1% 1% 21%;
+    font-size: 3.2em;
+  }
+  body main .juegos .gamesList h3:nth-child(9) {
+    margin: 7% 1% 1% 38%;
+    font-size: 3.2em;
+  }
+  body main .juegos .gamesList img:nth-child(2) {
+    width: 38%;
+    height: 46vh;
+    margin: 7% 1% 1% -31%;
+  }
+  body main .juegos .gamesList img:nth-child(4) {
+    width: 38%;
+    height: 46vh;
+    margin: -34% 1% 13% 55%;
+  }
+  body main .juegos .gamesList img:nth-child(6) {
+    width: 38%;
+    height: 46vh;
+    margin: 1% 1% 1% -34%;
+  }
+  body main .juegos .gamesList img:nth-child(8) {
+    width: 38%;
+    height: 46vh;
+    margin: -34% 0% 1% 55%;
+  }
+  body main .juegos .gamesList img:nth-child(10) {
+    width: 38%;
+    height: 46vh;
+    margin: 13% -10% 5% -33%;
+  }
+  body main .podcasts h2 {
+    margin: 8% 10% 5% 10%;
+    font-size: 3.5em;
+  }
+  body main .podcasts h3 {
+    font-size: 3.2em;
+    margin: 8% 1% -1% 2%;
+  }
+  body main .podcasts p {
+    font-size: 3.2em;
+    margin: 10% 1% 10% 1%;
+  }
+  body main .intro img {
+    width: 40%;
+    height: 33vh;
+    margin: -6% 0% 3% 31%;
+  }
+  body main .recibimosRta h2 {
+    font-size: 3.5em;
+    margin: 8% 12% 18% 16%;
+  }
+  body main .recibimosRta h3 {
+    font-size: 3.5em;
+    margin: -17% 12% 10% 16%;
+  }
+  body main .recibimosRta .pContainer {
+    height: 26vh;
+    width: 49%;
+    margin: 0% 5% 9% 27%;
+  }
+  body main .recibimosRta .pContainer .pContainerp1 {
+    font-size: 3.2em;
+  }
+  body main .recibimosRta .pContainer .pContainerp2 {
+    font-size: 3.2em;
+  }
+  body main .recibimosRta img {
+    width: 30%;
+    margin: 1% 0% 3% 36%;
   }
 }
 /*# sourceMappingURL=style.css.map */
