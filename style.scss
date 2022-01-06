@@ -71,7 +71,7 @@ body {
 
       form {
         background-color: #e5721b;
-        color: black;
+        color: white;
         width: 70%;
         height: 51vh;
         margin: -1% 30% 4% 15%;
@@ -79,7 +79,7 @@ body {
         border-radius: 18px;
 
         .fieldsetContainer {
-          color: black;
+          color: white;
 
           fieldset {
             legend {
@@ -113,7 +113,7 @@ body {
 
                 a {
                   text-decoration: none;
-                  color: black;
+                  color: white;
                   cursor: pointer;
                 }
               }
@@ -123,7 +123,7 @@ body {
 
                 a {
                   text-decoration: none;
-                  color: black;
+                  color: white;
                   cursor: pointer;
                 }
               }
@@ -133,7 +133,7 @@ body {
 
                 a {
                   text-decoration: none;
-                  color: black;
+                  color: white;
                   cursor: pointer;
                 }
               }
@@ -2166,6 +2166,7 @@ body {
   body {
     main {
       margin: -7% 0%;
+
       .intro {
         a {
           h1 {
@@ -2173,14 +2174,17 @@ body {
             margin: 11% 1% 9% 3%;
           }
         }
+
         .introH2 {
           font-size: 3.5em;
         }
+
         .fotoIntro {
           height: 42vh;
           width: 49%;
           margin: -3% 0% 10% 26%;
         }
+
         .pIntro {
           font-size: 3.5em;
           margin: -2% 14% 7% 15%;
@@ -2192,27 +2196,34 @@ body {
           font-size: 3.5em;
           margin: 0% 26% 7% 26%;
         }
+
         form {
           height: 94vh;
+
           .fieldsetContainer {
             fieldset {
               legend {
                 h3 {
                   font-size: 2.5em;
                 }
+
                 .pLegend {
                   margin: -4% 16% 5% 16%;
                   font-size: 2.1em;
                 }
               }
+
               .labels {
                 font-size: 2.7em;
+
                 .userType1 {
                   margin: 2% 6% 6% 3%;
                 }
+
                 .userType2 {
                   margin: 1% 6% 6% -11%;
                 }
+
                 .userType3 {
                   margin: 1% 6% 6% -13%;
                 }
@@ -2234,11 +2245,13 @@ body {
       .h2Article {
         font-size: 3.1em;
       }
+
       figure {
         .imgArticle {
           width: 41%;
           margin: 7% 1% 10% 30%;
         }
+
         figcaption {
           font-size: 3em;
         }
@@ -2250,6 +2263,7 @@ body {
         font-size: 2.5em;
         margin: 22% 10% -2% 11%;
       }
+
       .p2Footer {
         font-size: 2.5em;
         margin: 4% 0% 4% 2%;
@@ -2258,7 +2272,95 @@ body {
   }
 
   //* B. Contactanos:
-  
+  body {
+    main {
+      .intro {
+        .title3-A {
+          font-size: 3.5em;
+          margin: -7% 1% 10% 4%;
+        }
+
+        .title3-B {
+          font-size: 3.5em;
+          margin: -3% 1% 8% 2%;
+        }
+
+        .contactUs3 {
+          height: 35vh;
+          width: 42%;
+          margin: -2% 0% 10% 31%;
+        }
+      }
+
+      .contactForm {
+        .contact {
+          h2 {
+            font-size: 3.5em;
+            margin: 1% 27% 7% 31%;
+          }
+
+          h3 {
+            font-size: 3.3em;
+            margin: -1% 22% -3% 27%;
+          }
+
+          .infoUser {
+            font-size: 3.1em;
+
+            .infoDelUsuario {
+              margin: 5% 20% 6% 23%;
+            }
+          }
+
+          .typeDeConsulta {
+            .typeDeConsultaH3 {
+              font-size: 3.1em;
+              margin: 7% 0% 0% 5%;
+            }
+
+            .tipoDeC {
+              margin: 1% 2% 15% 24%;
+
+              select {
+                margin: 0% 1% 1% 6%;
+                padding: 0px 249px;
+                height: 7vh;
+              }
+            }
+          }
+
+          .mensaje {
+            font-size: 3.1em;
+            padding: 0px 231px;
+            margin: -8% 6% 0% 11%;
+          }
+
+          .novedades {
+            .novedadesH3 {
+              font-size: 3.5em;
+            }
+
+            .answer {
+              font-size: 3.1em;
+              margin: 1% -12% 1% 28%;
+            }
+          }
+
+          .submit {
+            font-size: 3.1em;
+            padding: 23px 0px;
+            margin: 9% 1% 13% 41%;
+            width: 21%;
+          }
+        }
+
+        .p3 {
+          margin: -2% 23% 6% 25%;
+          font-size: 3.3em;
+        }
+      }
+    }
+  }
 
   //* C. Novedades:
   body {
@@ -2268,6 +2370,7 @@ body {
           margin: -6% 1% 9% 3%;
           font-size: 3.5em;
         }
+
         .novedadesPic {
           width: 50%;
           height: 49vh;
@@ -2280,14 +2383,17 @@ body {
           font-size: 3.5em;
           margin: 12% 23% 6% 26%;
         }
+
         h3 {
           font-size: 3.3em;
           margin: -2% 0% 6% 3%;
         }
+
         img {
           width: 60%;
           margin: 3% 1% 5% 22%;
         }
+
         p {
           font-size: 3.3em;
           margin: 0% 1% -2% 5%;
@@ -2299,14 +2405,17 @@ body {
           font-size: 3.5em;
           margin: 12% 23% 6% 26%;
         }
+
         h3 {
           font-size: 3.3em;
           margin: -2% 0% 6% 3%;
         }
+
         img {
           width: 60%;
           margin: 3% 1% 5% 22%;
         }
+
         p {
           font-size: 3.3em;
           margin: 0% 1% -2% 4%;
@@ -2318,14 +2427,17 @@ body {
           font-size: 3.5em;
           margin: 12% 23% 6% 26%;
         }
+
         h3 {
           font-size: 3.3em;
           margin: -2% 0% 6% 3%;
         }
+
         img {
           width: 60%;
           margin: 3% 1% 5% 22%;
         }
+
         p {
           font-size: 3.3em;
           margin: 0% 1% -2% 4%;
@@ -2353,15 +2465,18 @@ body {
         .memesContainer {
           flex-direction: row;
           flex-wrap: wrap;
+
           img {
             width: 38%;
             height: 62vh;
             margin: 0% -4% 9% 9%;
+
             &:last-child {
               margin: 1% 1% 1% 31%;
             }
           }
         }
+
         .p1 {
           font-size: 3.3em;
           margin: 7% 2% 0% 1%;
@@ -2378,10 +2493,12 @@ body {
           font-size: 3.5em;
           margin: 8% 20% -3% 21%;
         }
+
         h3 {
           font-size: 3.2em;
           margin: 10% 1% 3% 1%;
         }
+
         .youtubersIframe {
           margin: -23px 148px 76px 180px;
         }
@@ -2397,11 +2514,13 @@ body {
           font-size: 3.2em;
           margin: -6% 1% 10% -1%;
         }
+
         iframe {
           padding: 0px 175px;
           margin: -2% -14% -1% 9%;
           height: 74vh;
         }
+
         p {
           font-size: 3.2em;
           margin: 8% 22% 0% 20%;
@@ -2413,6 +2532,7 @@ body {
           margin: 8% 22% 5% 20%;
           font-size: 3.5em;
         }
+
         .gamesList {
           display: flex;
           flex-direction: row;
@@ -2422,18 +2542,22 @@ body {
             margin: 1% 1% 1% 15%;
             font-size: 3.2em;
           }
+
           h3:nth-child(3) {
             margin: 1% 1% 1% 20%;
             font-size: 3.2em;
           }
+
           h3:nth-child(5) {
             margin: -5% 1% 5% 11%;
             font-size: 3.2em;
           }
+
           h3:nth-child(7) {
             margin: -5% 1% 1% 21%;
             font-size: 3.2em;
           }
+
           h3:nth-child(9) {
             margin: 7% 1% 1% 38%;
             font-size: 3.2em;
@@ -2444,21 +2568,25 @@ body {
             height: 46vh;
             margin: 7% 1% 1% -31%;
           }
+
           img:nth-child(4) {
             width: 38%;
             height: 46vh;
             margin: -34% 1% 13% 55%;
           }
+
           img:nth-child(6) {
             width: 38%;
             height: 46vh;
             margin: 1% 1% 1% -34%;
           }
+
           img:nth-child(8) {
             width: 38%;
             height: 46vh;
             margin: -34% 0% 1% 55%;
           }
+
           img:nth-child(10) {
             width: 38%;
             height: 46vh;
@@ -2472,10 +2600,12 @@ body {
           margin: 8% 10% 5% 10%;
           font-size: 3.5em;
         }
+
         h3 {
           font-size: 3.2em;
           margin: 8% 1% -1% 2%;
         }
+
         p {
           font-size: 3.2em;
           margin: 10% 1% 10% 1%;
@@ -2485,6 +2615,30 @@ body {
   }
 
   //* E. Respuesta del Form:
+  body {
+    main {
+      .gotTheAnswer {
+        h2 {
+          font-size: 3.5em;
+          margin: 8% 24% -3% 27%;
+        }
+        h3 {
+          font-size: 3.5em;
+          margin: 12% 0% -3% 2%;
+        }
+        p {
+          font-size: 3.5em;
+          margin: 14% 1% 10% 3%;
+        }
+        img {
+          width: 40%;
+          height: 44vh;
+          margin: -2% 0% 3% 31%;
+        }
+      }
+    }
+  }
+
   //* F. Respuesta de la Mini Encuesta:
   body {
     main {
@@ -2501,21 +2655,26 @@ body {
           font-size: 3.5em;
           margin: 8% 12% 18% 16%;
         }
+
         h3 {
           font-size: 3.5em;
           margin: -17% 12% 10% 16%;
         }
+
         .pContainer {
           height: 26vh;
           width: 49%;
           margin: 0% 5% 9% 27%;
+
           .pContainerp1 {
             font-size: 3.2em;
           }
+
           .pContainerp2 {
             font-size: 3.2em;
           }
         }
+
         img {
           width: 30%;
           margin: 1% 0% 3% 36%;
@@ -2525,11 +2684,387 @@ body {
   }
 }
 
-//? @media (min-width: 1600px) {
-//* A. Home:
-//* B. Contactanos:
-//* C. Novedades:
-//* D. Lo mejor de la Web:
-//* E. Respuesta del Form:
-//* F. Respuesta de la Mini Encuesta:
-//? }
+@media (min-width: 1600px) {
+  //* A. Home:
+  body {
+    main {
+      .intro {
+        a {
+          h1 {
+            margin: 11% 1% 9% 2%;
+          }
+        }
+        .pIntro {
+          margin: -2% 17% 7% 19%;
+        }
+      }
+
+      .nuevaCara {
+        .pNuevaCara {
+          font-size: 3.5em;
+          margin: 0% 23% 7% 24%;
+        }
+
+        form {
+          height: 90vh;
+          .fieldsetContainer {
+            fieldset {
+              legend {
+                h3 {
+                  margin: 7% 1% 12% 1%;
+                }
+                .pLegend {
+                  margin: -4% 20% 5% 20%;
+                }
+              }
+
+              .labels {
+                font-size: 2.9em;
+                .userType1 {
+                  margin: 2% 6% 6% 5%;
+                }
+
+                .userType2 {
+                  margin: 1% 6% 6% -9%;
+                }
+
+                .userType3 {
+                  margin: 1% 6% 6% -11%;
+                }
+              }
+            }
+          }
+        }
+
+        .followUsContainer {
+          .pFollowUs {
+            margin: 0% 23% 7% 23%;
+          }
+        }
+      }
+    }
+
+    aside {
+      .h2Article {
+        font-size: 3.1em;
+        margin: 8% 23% 1% 24%;
+      }
+      figure {
+        figcaption {
+          margin: -6% 0% 0% 1%;
+        }
+      }
+    }
+
+    footer {
+      .p1Footer {
+        font-size: 2.8em;
+      }
+
+      .p2Footer {
+        font-size: 2.8em;
+      }
+    }
+  }
+
+  //* B. Contactanos:
+  body {
+    main {
+      .intro {
+        .title3-A {
+          font-size: 4em;
+        }
+        .title3-B {
+          font-size: 4em;
+        }
+        .contactUs3 {
+          height: 44vh;
+          width: 40%;
+          margin: -2% 0% 10% 30%;
+        }
+      }
+
+      .contactForm {
+        .contact {
+          h2 {
+            font-size: 4em;
+            margin: 1% 29% 7% 29%;
+          }
+          h3 {
+            font-size: 3.5em;
+            margin: -1% 24% -3% 25%;
+          }
+          .infoUser {
+            font-size: 3.5em;
+            .infoDelUsuario {
+              margin: 5% 23% 6% 22%;
+            }
+          }
+
+          .typeDeConsulta {
+            .typeDeConsultaH3 {
+              font-size: 3.5em;
+              margin: 7% 0% 0% 1%;
+            }
+            .tipoDeC {
+              select {
+                margin: 0% 1% 1% 5%;
+                padding: 0px 274px;
+                height: 8vh;
+              }
+            }
+          }
+
+          .mensaje {
+            font-size: 3.5em;
+            padding: 0px 263px;
+            margin: -9% 8% 0% 10%;
+          }
+
+          .novedades {
+            .answer {
+              font-size: 3.3em;
+            }
+          }
+
+          .submit {
+            font-size: 3.5em;
+            padding: 32px 0px;
+            margin: 9% 1% 13% 40%;
+            width: 21%;
+          }
+        }
+        .p3 {
+          margin: -2% 19% 6% 20%;
+          font-size: 3.5em;
+        }
+      }
+    }
+  }
+
+  //* C. Novedades:
+  body {
+    main {
+      .intro {
+        h2 {
+          margin: -6% 1% 9% 1%;
+        }
+        .novedadesPic {
+          width: 52%;
+          height: 55vh;
+          margin: 0% 0% 2% 24%;
+        }
+      }
+
+      .sorteos {
+        h2 {
+          font-size: 4em;
+          margin: 12% 21% 6% 22%;
+        }
+        h3 {
+          margin: -1% 0% 6% 0%;
+        }
+        img {
+          margin: 3% 1% 5% 20%;
+        }
+        p {
+          margin: 0% 1% -2% 0%;
+        }
+      }
+
+      .patrocinadores {
+        h2 {
+          font-size: 4em;
+          margin: 12% 21% 6% 21%;
+        }
+        h3 {
+          margin: -1% 0% 6% 0%;
+        }
+        img {
+          margin: 3% 1% 5% 20%;
+        }
+        p {
+          margin: 0% 1% -2% 0%;
+        }
+      }
+
+      .seguinos {
+        h2 {
+          font-size: 4em;
+          margin: 12% 21% 6% 21%;
+        }
+        h3 {
+          margin: -1% 0% 6% 0%;
+        }
+        img {
+          margin: 3% 1% 5% 20%;
+        }
+        p {
+          margin: 0% 1% -2% 1%;
+        }
+      }
+    }
+  }
+
+  //* D. Lo mejor de la Web:
+  body {
+    main {
+      .intro {
+        .loMejorDeLaWebPic {
+          height: 65vh;
+        }
+      }
+
+      .memes {
+        h2 {
+          font-size: 4em;
+        }
+        .memesContainer {
+          img {
+            height: 72vh;
+          }
+        }
+        .p1 {
+          font-size: 3.5em;
+        }
+        .p2 {
+          font-size: 3.5em;
+        }
+      }
+
+      .youtubers {
+        h2 {
+          font-size: 4em;
+          margin: 8% 20% -3% 19%;
+        }
+        h3 {
+          font-size: 3.5em;
+          margin: 11% 1% 2% 0%;
+        }
+        .youtubersIframe {
+          margin: -23px 111px 76px 152px;
+        }
+      }
+
+      .canciones {
+        h2 {
+          font-size: 4em;
+          margin: 17% 13% 12% 12%;
+        }
+        h3 {
+          font-size: 3.5em;
+        }
+        iframe {
+          padding: 0px 217px;
+        }
+        p {
+          font-size: 3.5em;
+        }
+      }
+
+      .juegos {
+        h2 {
+          margin: 8% 20% 5% 19%;
+          font-size: 4em;
+        }
+
+        .gamesList {
+          h3:nth-child(1) {
+            margin: 1% 1% 1% 17%;
+            font-size: 3.5em;
+          }
+          h3:nth-child(3) {
+            margin: 1% 1% 1% 16%;
+            font-size: 3.5em;
+          }
+          h3:nth-child(5) {
+            margin: -5% 1% 5% 12%;
+            font-size: 3.5em;
+          }
+          h3:nth-child(7) {
+            margin: -5% 1% 1% 17%;
+            font-size: 3.5em;
+          }
+          h3:nth-child(9) {
+            margin: 7% 1% 1% 37%;
+            font-size: 3.5em;
+          }
+
+          img:nth-child(2) {
+            height: 53vh;
+            margin: 7% 1% 1% -31%;
+          }
+          img:nth-child(4) {
+            height: 53vh;
+            margin: -35% 1% 13% 53%;
+          }
+          img:nth-child(6) {
+            height: 53vh;
+            margin: 1% 1% 1% -33%;
+          }
+          img:nth-child(8) {
+            height: 53vh;
+            margin: -35% 0% 1% 53%;
+          }
+          img:nth-child(10) {
+            height: 53vh;
+            margin: 13% -10% 5% -32%;
+          }
+        }
+      }
+
+      .podcasts {
+        h2 {
+          margin: 8% 9% 5% 7%;
+          font-size: 4em;
+        }
+        h3 {
+          font-size: 3.5em;
+          margin: 8% 1% -1% 1%;
+        }
+        p {
+          font-size: 3.5em;
+          margin: 10% 1% 10% 0%;
+        }
+      }
+    }
+  }
+
+  //* E. Respuesta del Form:
+  body {
+    main {
+      .gotTheAnswer {
+        h2 {
+          font-size: 4em;
+          margin: 8% 20% 1% 20%;
+        }
+        h3 {
+          font-size: 4em;
+          margin: 12% 0% -3% 0%;
+        }
+        p {
+          font-size: 4em;
+          margin: 14% 1% 10% 1%;
+        }
+        img {
+          width: 46%;
+          height: 55vh;
+          margin: -2% 0% 3% 27%;
+        }
+      }
+    }
+  }
+
+  //* F. Respuesta de la Mini Encuesta:
+  body {
+    main {
+      .intro {
+        img {
+          width: 46%;
+          height: 41vh;
+          margin: -6% 0% 3% 28%;
+        }
+      }
+    }
+  }
+}
